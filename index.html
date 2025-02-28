@@ -1,12 +1,28 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./src/styles/output.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./src/styles/output.css" />
     <title>Book Store</title>
-</head>
-<body>
-    
-</body>
+  </head>
+  <body>
+    <header class="w-full">
+      <nav
+        class="w-full p-4 flex items-center justify-between bg-[var(--color-green-dark)]"
+      >
+        <h1 class="text-2xl font-bold">Libreria Online</h1>
+        <button
+          class="px-4 py-2 bg-[var(--color-bg)] rounded-sm flex items-center gap-2 cursor-pointer"
+        >
+          <img
+            src="./src/assets/shopping-cart.svg"
+            alt="shopping-cart"
+            class="w-6 inline"
+          />
+          <p>Carrito (<span>0</span>)</p>
+        </button>
+      </nav>
+    </header>
+  </body>
 </html>
