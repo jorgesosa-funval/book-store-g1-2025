@@ -1,0 +1,16 @@
+{
+  "name": "book-store",
+  "version": "1.0.0",
+  "main": "index.html",
+  "scripts": {
+    "tw": "npx @tailwindcss/cli -i ./src/styles/input.css -o ./src/styles/output.css --watch"
+  },
+  "keywords": [],
+  "author": "joregesosa",
+  "license": "ISC",
+  "description": "Librería Online es una aplicación web de comercio electrónico para la venta de libros. Los usuarios pueden explorar el catálogo, filtrar por categorías, agregar productos al carrito y gestionar sus compras de manera intuitiva.",
+  "dependencies": {
+    "@tailwindcss/cli": "^4.0.9",
+    "tailwindcss": "^4.0.9"
+  }
+}
