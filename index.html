@@ -1,12 +1,75 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./src/styles/output.css">
     <title>Book Store</title>
 </head>
+
 <body>
-    
+    <aside class="min-w-full h-100vh flex flex-col border-2 border-gray-300 rounded-md lg:w-1/4 lg:object-right">
+        <div class=" flex flex-row m-5">
+            <h2 class="text-2xl w-2/3 text-center font-bold">Tu carrito de compras</h2>
+            <button class="w-1/3 text-right">&#10005;</button>
+        </div>
+        <div class="flex flex-col m-5">
+            <div class="flex flex-row">
+                <div class="w-3/4">
+                    <p>To Kill a Mockingbird</p>
+                    <p class="text-gray-400">Harper Lee</p>
+                    <p>$12.50</p>
+                    <div class="flex flex-row text-center items-center">
+                        <button class="m-5 w-7 border border-gray-700 rounded-md">-</button>
+                        <p>1</p>
+                        <button class="m-5 w-7 border border-gray-700 rounded-md">+</button>
+                    </div>
+                </div>
+                <div class="w-1/4 text-right">
+                    <button><img class="w-6" src="./src/img/eliminar.png" alt=""></button>
+                </div>
+            </div>
+            <div class="flex flex-row">
+                <div class="w-3/4">
+                    <p>The Great Gatsby</p>
+                    <p class="text-gray-400">F. Scott Fitzgerald</p>
+                    <p>$10.75</p>
+                    <div class="flex flex-row text-center items-center">
+                        <button class="m-5 w-7 border border-gray-700 rounded-md">-</button>
+                        <p>1</p>
+                        <button class="m-5 w-7 border border-gray-700 rounded-md">+</button>
+                    </div>
+                </div>
+                <div class="w-1/4 text-right">
+                    <button><img class="w-6" src="./src/img/eliminar.png" alt=""></button>
+                </div>
+            </div>
+            <div class="flex flex-row">
+                <div class="w-3/4">
+                    <p>1984</p>
+                    <p class="text-gray-400">George Orwell</p>
+                    <p>$9.99</p>
+                    <div class="flex flex-row text-center items-center">
+                        <button class="m-5 w-7 border border-gray-700 rounded-md">-</button>
+                        <p>1</p>
+                        <button class="m-5 w-7 border border-gray-700 rounded-md">+</button>
+                    </div>
+                </div>
+                <div class="w-1/4 text-right">
+                    <button><img class="w-6" src="./src/img/eliminar.png" alt=""></button>
+                </div>
+            </div>
+        </div>
+        <div class="flex flex-row justify-between m-5 border-t-1 p-1 border-gray-300 align-text-bottom">
+            <div>
+                Total:
+            </div>
+            <div>
+                $23.25
+            </div>
+        </div>
+    </aside>
 </body>
+
 </html>
