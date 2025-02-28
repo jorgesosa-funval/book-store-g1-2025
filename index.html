@@ -1,12 +1,37 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./src/styles/output.css">
     <title>Book Store</title>
 </head>
+
 <body>
-    
+    <main class="px-10 py-5">
+        <!-- barra de busqueda -->
+        <div class="relative mt-2 ">
+            <input type="search" placeholder="Buscar Libros"
+                class="w-full pl-10 pr-4 py-2 rounded-lg border border-gray-300 focus:outline-none focus:border-blue-500">
+                <!-- Icono de la lupa de busqueda -->
+            <div class="absolute inset-y-0 left-0 flex items-center">
+                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor"
+                    class="size-6 mx-3 text-[#FF7518]">
+                    <path stroke-linecap="round" stroke-linejoin="round"
+                        d="m15.75 15.75-2.489-2.489m0 0a3.375 3.375 0 1 0-4.773-4.773 3.375 3.375 0 0 0 4.774 4.774ZM21 12a9 9 0 1 1-18 0 9 9 0 0 1 18 0Z" />
+                </svg>
+            </div>
+        </div>
+        <!-- Botones de categorias -->
+        <div class="flex flex-wrap gap-2 mt-4">
+            <button class="px-4 py-2 rounded-md bg-[#FF7518] text-white border border-[#FF7518]">Todos</button>
+            <button class="px-4 py-2 rounded-md border border-gray-300">Ficción</button>
+            <button class="px-4 py-2 rounded-md border border-gray-300">Romance</button>
+            <button class="px-4 py-2 rounded-md border border-gray-300">Ciencia Ficción</button>
+            <button class="px-4 py-2 rounded-md border border-gray-300">Fantasía</button>
+        </div>
+    </main>
 </body>
+
 </html>
